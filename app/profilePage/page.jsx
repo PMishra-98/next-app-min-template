@@ -28,7 +28,7 @@ const Profile = () => {
         }
     }
 
-// Update profileData after delete/follow data
+// Update profileData after delete/follow data using callback function
     const updatedData = (data) => {
         setProfileData(data);
     }

@@ -47,7 +47,7 @@ const ShowCard = (props) => {
                 <Text fw={500} size="lg" mt="md" align="center">
                   {item.name}
                   {item.follow ?
-                    <IconStar size={16} ml="md"/> : <></>}
+                    <IconStar size={16}/> : <></>}
                 </Text>
               </Card.Section>
 
